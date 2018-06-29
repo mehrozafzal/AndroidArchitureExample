@@ -6,3 +6,4 @@ There is mechanism for viewing history for user. It is maintained by using Share
 Furthermore for the networking library I have used RETROFIT.
 Everything is custom designed.
 This project has been published for only 1 time so I have not made any commits.
+Finally you can easily download the project and review it.
