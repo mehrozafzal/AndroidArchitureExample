@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidDevelopmentTest</string>
+    <string name="AlertDialog_Message">No such user found</string>
+    <string name="alert_dialog_accept">OK</string>
+    <string name="search_fragment_disclaimer">Search a username and find the details. All Rights Reserved.</string>
+    <string name="search_fragment_hint">Search username</string>
+    <string name="fragment_detail_user_name">User name</string>
+    <string name="fragment_detail_user_email">User email</string>
+    <string name="follower_list_item_follower_name">Follower Name</string>
+    <string name="follower_list_itemfollower_email">Follower Email</string>
+    <string name="search_frag_history_btn">View History Cache</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/searchUserFragment_usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/transparent"
+            android:hint="@string/search_fragment_hint"
+            android:textColorHint="@color/color0"
+            android:padding="10dp"
+            android:minHeight="60dp"
+            android:imeOptions="actionSearch"
+            android:inputType="text"/>
+
+        <View style="@style/searchUser_horizontalLine_style"
+            android:layout_below="@+id/searchUserFragment_usernameInput"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/searchUserFragment_usernameInput"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/search_fragment_up_arrow_image"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/SearchUserFragment_Img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/search_fragment_image" />
+    <Button
+        android:id="@+id/searchUserFragment_cacheButton"
+        android:text="@string/search_frag_history_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/search_fragment_button"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:textSize="10sp"
+        android:layout_above="@+id/search_frag_disclaimer"/>
+    <TextView
+        android:id="@+id/search_frag_disclaimer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/search_fragment_disclaimer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+</RelativeLayout>

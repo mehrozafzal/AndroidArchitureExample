@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4b3772</color>
+    <color name="colorPrimaryDark">#382856</color>
+    <color name="colorAccent">#5D5D5E</color>
+
+    //EXTERNAL THEME COLORS
+    <color name="color0">#ffffff</color>
+    <color name="Color1">#161221</color>
+    <color name="Color2">#412F48</color>
+    <color name="Color3">#5D5D5E</color>
+    <color name="Color4">#6036B2</color>
+    <color name="transPurple">#2c8c52ff</color>
+    <color name="Color5">#ABA9B0</color>
+    <color name="Color11">#d0d0d0</color>
+    <color name="Color6">#7351B2</color>
+    <color name="Color7">#857EAB</color>
+    <color name="Color8">#3d2d5b</color>
+    <color name="Color10">#382856</color>
+    <color name="Color9">#4b3772</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="shineBlue">#00ffff</color>
+
+
+</resources>
