@@ -1,4 +1,4 @@
-# AndroidDevelopmentTest
+# AndroidDevelopment
 Public repository for Seattle Information System Development Task. 
 This is a SEARCH user and find user DETAILS module for android using GIT API.
 I have implemented FRAGMENT NAVIGATION PATTERN and SINGLETON CLASS PATTERN in this project.
